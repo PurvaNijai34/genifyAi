@@ -6,7 +6,6 @@ import { ClerkProvider } from '@clerk/react'
 import { AppProvider } from "./context/AppContext.jsx";
 import { dark } from "@clerk/themes";
 
-// Import your Publishable Key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 
 if (!PUBLISHABLE_KEY) {
