@@ -1,0 +1,75 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #818cf8; 
+  --color-dark-bg: #0a0a0c; 
+  --color-card-bg: #16161a;
+  
+  @keyframes orbit {
+    from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+  }
+}
+
+.cl-drawerRoot{
+  z-index: 90;
+} 
+
+.reset-tw, .reset-tw *{
+  all: revert !important;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh; 
+  background-color: #050505;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Subtle Grain Effect (Optional but looks cool) */
+.bg-grain {
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  filter: contrast(150%) brightness(100%);
+  opacity: 0.05;
+}
+
+
+
+
+/* --- Glowing Sidebar Scrollbar --- */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px; /* Ek dam patli aur sleek */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.05); /* Default invisible-ish */
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+/* Jab sidebar par hover karoge, tab thumb highlight hoga */
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #6366f1, #a855f7);
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.4);
+}
+
+
+.cl-modalBackdrop {
+  z-index: 9999 !important;
+}
+
+.cl-modalContent {
+  z-index: 10000 !important;
+}
