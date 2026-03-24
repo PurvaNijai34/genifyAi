@@ -1,6 +1,6 @@
 // server/routes/aiRoutes.js
 import express from "express";
-import { auth } from "../middlewares/auth.js";
+import { auth } from "../middlewares/Auth.js";
 import { generateArticle, generateBlogTitle, generateImage, removeImageBackground, removeImageObject, resumeReview } from "../controllers/aiController.js";
 import { upload } from "../configs/multer.js";
 const aiRouter = express.Router();
