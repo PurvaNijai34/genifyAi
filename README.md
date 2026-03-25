@@ -1,6 +1,9 @@
-# 🚀 Genify AI  
+  
+# Title : ![alt text](image.png) GenifyAi.
 
 
+## 🔗 Live Demo  
+## https://genifiyai.netlify.app/
 
 ## 📑 Table of Contents
 - [🔍 Overview](#overview)
@@ -115,6 +118,9 @@ CLOUDINARY_URL=your_url
 
 
 <h2> <a class="anchor" id="screenshot">📷Screenshots</a><h2/>
+
+
+![Home Page](https://github.com/PurvaNijai34/genifyAi/blob/main/client/public/screenshot/Home.png)
 
 <h2><a class="anchor" id="author"> 👤 Author</a><h2/>
 
