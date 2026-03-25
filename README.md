@@ -74,7 +74,7 @@ It integrates authentication, billing, and role-based access using Clerk, along 
 
 
 ```bash 
-git clone https://github.com/PurvaNijai34/secure-user-profile-access-control.git
+git clone https://github.com/PurvaNijai34/genifyAi.git
 ```
 
 ### 2. Backend setup
