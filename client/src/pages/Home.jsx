@@ -1,4 +1,5 @@
-import React from 'react'
+// client/src/pages/Home.jsx
+import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import AiTools from '../components/AiTools'
@@ -9,7 +10,7 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
    <>
-    <Navbar/>
+    <Navbar set/>
     <Hero/>
     <AiTools/>
     <Testimonial/>

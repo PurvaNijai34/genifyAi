@@ -47,10 +47,6 @@ const Hero = () => {
             <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
           </button>
 
-          <button className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-8 py-4 font-semibold text-white transition-all hover:bg-white/10 hover:border-white/20 backdrop-blur-sm">
-            <Play size={18} fill="currentColor" />
-            Watch Demo
-          </button>
         </div>
 
         {/* --- Features Mini-Grid (Animated) --- */}
