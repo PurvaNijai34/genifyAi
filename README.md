@@ -108,14 +108,16 @@ VITE_CLERK_PUBLISHABLE_KEY=your_key
 ```
 ### 📁 Server (.env)
 ```bash
-PORT=5000
-CLERK_SECRET_KEY=your_key
-DATABASE_URL=your_db_url
-GROQ_API_KEY=your_key
-CLIPDROP_API_KEY=your_key
-CLOUDINARY_URL=your_url
+PORT =3000;
+DATABASE_URL=your_database_url
+CLERK_PUBLISHABLE_KEY=your_publishablw_key
+CLERK_SECRET_KEY=your_clerk_secert_key
+GROQ_API_KEY=your_groq_api_key
+CLIPDROP_API_KEY=your_api_key
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECERT=your_secert_key 
 ```
-
 
 <h2> <a class="anchor" id="screenshot">📷Screenshots</a><h2/>
 
