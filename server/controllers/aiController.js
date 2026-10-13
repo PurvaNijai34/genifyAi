@@ -18,7 +18,7 @@ const AI = new Groq({
 });
 
 //  MODEL TO USE
-const MODEL = "llama-3.3-70b-versatile";
+const MODEL = "openai/gpt-oss-120b";
 
 export const generateArticle = async (req, res) => {
   try {
